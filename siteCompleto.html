@@ -30,6 +30,25 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projetos">Pratocínio</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="#formulario">Reportagem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#foot">Footer</a>
+                </li>
+            </ul>
+
+        </div>
 
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
@@ -44,6 +63,7 @@
     </nav>
     <!-- /Menu -->
     <!-- carousel -->
+    
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -181,9 +201,13 @@
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="form-group d-flex justify-content-center ">
+                                <button class="btn btn-outline-dark btn-lg btn-block" onclick="check()">Enviar</button>
+                            </div>
                         </div>
                     </form>
                 </div>
+                
                 <div class="col-md-6">
                     <iframe class= "right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.128367935769!2d-46.60452878507266!3d-23.455833684735413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef685e35c8743%3A0x2e40cc9ebaf6b901!2sAv.%20Cel.%20Sezefredo%20Fagundes%2C%202698%20-%20Jardim%20Tremembe%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002306-004!5e0!3m2!1spt-BR!2sbr!4v1623856771960!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" onmousemove="mapaZoom()" onmouseout="mapaNormal()" loading="lazy" id="mapa"></iframe>
                 </div>
